@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="XTzo3F2tmx3Pepn6dTwL" name="Page-1">
-        <mxGraphModel dx="1130" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1130" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -50,8 +50,76 @@
                 <mxCell id="13" value="Game displays message: &quot;Great job! You've escaped&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="290" y="580" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="MVP 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=34;fontColor=#FF0000;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="95" width="120" height="50" as="geometry"/>
+                <mxCell id="15" value="MVP 1: A question with input and result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=34;fontColor=#FF0000;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="95" width="610" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="MVP 2: Add a title screen including plot&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=34;fontColor=#FF0000;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="700" width="620" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Title Screen Appears&lt;br&gt;&quot;Hackathon Heist&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="770" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="355" y="1040" as="sourcePoint"/>
+                        <mxPoint x="355" y="1120" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="355" y="1110"/>
+                            <mxPoint x="355" y="1090"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="User inputs answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="286" y="1120" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Answer correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="316" y="1230" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="22">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="506" y="1190" as="sourcePoint"/>
+                        <mxPoint x="556" y="1140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="506" y="1190" as="sourcePoint"/>
+                        <mxPoint x="356" y="1380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="276" y="1290" as="sourcePoint"/>
+                        <mxPoint x="206" y="1270" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="186" y="1270"/>
+                            <mxPoint x="186" y="1150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="366" y="1330" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="196" y="1200" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Game displays message: &quot;Great job! You've escaped&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="286" y="1380" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="355" y="830" as="sourcePoint"/>
+                        <mxPoint x="355" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="30" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Plot/storyline appears when user clicks mouse or hits spacebar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="880" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Question appears when user clicks mouse or hits spacebar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="980" width="140" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
